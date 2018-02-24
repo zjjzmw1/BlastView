@@ -1,5 +1,5 @@
 # BlastView
-swift版本：类似扣扣消息拖拽销毁的效果（UIView的类目，方便使用）
+swift4.0 版本：类似扣扣消息拖拽销毁的效果（UIView的类目，方便使用）
 使用方法：
     一：导入：UIView+Blast.swift
     二：
