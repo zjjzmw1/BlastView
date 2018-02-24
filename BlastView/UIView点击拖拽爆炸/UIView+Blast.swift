@@ -199,7 +199,7 @@ extension UIView {
         for _ in 0 ..< rowClocn * rowClocn {
             let pw = min(self.frame.size.width, self.frame.size.height)
             let shape = CALayer()
-            shape.backgroundColor = UIColor(displayP3Red: 231/255.0, green: 231/255.0, blue: 231/255.0, alpha: 1.0).cgColor
+            shape.backgroundColor = UIColor.init(red: 231/255.0, green: 231/255.0, blue: 231/255.0, alpha: 1.0).cgColor
             shape.cornerRadius = pw / 2.0
             shape.frame = CGRect.init(x: 0, y: 0, width: pw, height: pw)
             layer.superlayer?.addSublayer(shape)

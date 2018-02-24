@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BD428AFB203FE0C9000FD4C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD428AFA203FE0C9000FD4C4 /* AppDelegate.swift */; };
 		BD428B02203FE0C9000FD4C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD428B01203FE0C9000FD4C4 /* Assets.xcassets */; };
-		BD428B05203FE0C9000FD4C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD428B03203FE0C9000FD4C4 /* LaunchScreen.storyboard */; };
 		BD428B0D203FE0F1000FD4C4 /* UIView+Blast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD428B0C203FE0F1000FD4C4 /* UIView+Blast.swift */; };
 		BD428B0F203FFE57000FD4C4 /* SencondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD428B0E203FFE57000FD4C4 /* SencondVC.swift */; };
 		BD428B172040254B000FD4C4 /* unreadBomb_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD428B122040254B000FD4C4 /* unreadBomb_4@2x.png */; };
@@ -23,7 +22,6 @@
 		BD428AF7203FE0C9000FD4C4 /* BlastView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlastView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD428AFA203FE0C9000FD4C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD428B01203FE0C9000FD4C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD428B04203FE0C9000FD4C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD428B06203FE0C9000FD4C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD428B0C203FE0F1000FD4C4 /* UIView+Blast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Blast.swift"; sourceTree = "<group>"; };
 		BD428B0E203FFE57000FD4C4 /* SencondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SencondVC.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				BD428B0E203FFE57000FD4C4 /* SencondVC.swift */,
 				BD428B10204024EF000FD4C4 /* UIView点击拖拽爆炸 */,
 				BD428B01203FE0C9000FD4C4 /* Assets.xcassets */,
-				BD428B03203FE0C9000FD4C4 /* LaunchScreen.storyboard */,
 				BD428B06203FE0C9000FD4C4 /* Info.plist */,
 			);
 			path = BlastView;
@@ -155,7 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD428B192040254B000FD4C4 /* unreadBomb_2@2x.png in Resources */,
-				BD428B05203FE0C9000FD4C4 /* LaunchScreen.storyboard in Resources */,
 				BD428B172040254B000FD4C4 /* unreadBomb_4@2x.png in Resources */,
 				BD428B1A2040254B000FD4C4 /* unreadBomb_3@2x.png in Resources */,
 				BD428B1B2040254B000FD4C4 /* unreadBomb_5@2x.png in Resources */,
@@ -178,17 +174,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BD428B03203FE0C9000FD4C4 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BD428B04203FE0C9000FD4C4 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BD428B07203FE0C9000FD4C4 /* Debug */ = {
@@ -303,7 +288,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5J4296433;
 				INFOPLIST_FILE = BlastView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.BlastView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,7 +304,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5J4296433;
 				INFOPLIST_FILE = BlastView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ios.BlastView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
