@@ -24,6 +24,13 @@ class SencondVC: UIViewController {
         btn.addTarget(self, action: #selector(reloadAction), for: .touchUpInside)
         
         self.reloadAction()
+        
+        
+        // 延迟5后执行
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + DispatchTimeInterval.milliseconds(Int(5 * 1000))) {
+            ReviewRequest().showReview()
+        }
+        
     }
     
     // 复位

@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+        ReviewRequest().incrementAppRuns()
+        
         let vc = SencondVC()
         // 初始化跟视图
         window = UIWindow(frame:UIScreen.main.bounds)

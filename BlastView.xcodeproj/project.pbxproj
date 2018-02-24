@@ -16,6 +16,7 @@
 		BD428B192040254B000FD4C4 /* unreadBomb_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD428B142040254B000FD4C4 /* unreadBomb_2@2x.png */; };
 		BD428B1A2040254B000FD4C4 /* unreadBomb_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD428B152040254B000FD4C4 /* unreadBomb_3@2x.png */; };
 		BD428B1B2040254B000FD4C4 /* unreadBomb_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD428B162040254B000FD4C4 /* unreadBomb_5@2x.png */; };
+		BD4DAE492041439E005586B1 /* ReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4DAE482041439E005586B1 /* ReviewRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BD428B142040254B000FD4C4 /* unreadBomb_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_2@2x.png"; sourceTree = "<group>"; };
 		BD428B152040254B000FD4C4 /* unreadBomb_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_3@2x.png"; sourceTree = "<group>"; };
 		BD428B162040254B000FD4C4 /* unreadBomb_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unreadBomb_5@2x.png"; sourceTree = "<group>"; };
+		BD4DAE482041439E005586B1 /* ReviewRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				BD428AFA203FE0C9000FD4C4 /* AppDelegate.swift */,
 				BD428B0E203FFE57000FD4C4 /* SencondVC.swift */,
+				BD4DAE482041439E005586B1 /* ReviewRequest.swift */,
 				BD428B10204024EF000FD4C4 /* UIView点击拖拽爆炸 */,
 				BD428B01203FE0C9000FD4C4 /* Assets.xcassets */,
 				BD428B06203FE0C9000FD4C4 /* Info.plist */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD428B0F203FFE57000FD4C4 /* SencondVC.swift in Sources */,
+				BD4DAE492041439E005586B1 /* ReviewRequest.swift in Sources */,
 				BD428B0D203FE0F1000FD4C4 /* UIView+Blast.swift in Sources */,
 				BD428AFB203FE0C9000FD4C4 /* AppDelegate.swift in Sources */,
 			);
